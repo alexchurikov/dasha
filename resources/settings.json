@@ -1,0 +1,20 @@
+[		
+{"name": "OSA_version",	"value": "7", "Description": "Can be either 6 or 7"},					
+																						
+{"name": "CP_URL",	"value": "https://cp.osa.psteam.int.zone/", "Description": "PS team's 7.0"},
+{"name": "CP_URL1",	"value": "https://cp70.psteam.int.zone/", "Description": "does not exist"},
+{"name": "CP_URL3",	"value": "http://10.39.98.210:8080/", "Description": "Vitalya's 6.0"},
+
+{"name": "login",	"value": "admin", "Description": "vendor login"},
+{"name": "password",	"value": "123qweASD", "Description": "vendor password"},
+{"name": "password1",	"value": "123qwe", "Description": "vendor password"},
+{"name": "password3",	"value": "setup", "Description": "vendor password"},
+
+{"name": "source_xls",	"value": "prework11.xls", "Description": "xls prework"},
+{"name": "source_sheet",	"value": "BA-Service Plans - Domestic", "Description": "sheet, from which Plan data should be taken"},
+
+{"name": "PlanNamesTruncatedByBA",	"value": "no", "Description": "Set 'yes' if you want the program to create plans with truncated names (max=60 chars), may be needed if you have more than 6 locales, but result is unpredictable"},
+{"name": "ResourceRateNamesTruncatedByOA",	"value": "no", "Description": "Set 'yes' if you see that resource names were truncated by OA (max=64chars, usually in OA 6.x), the program will then search for truncated resource names"},
+
+{"name": "prefix",	"value": "", "Description": "plan name prefix, not needed so far"}
+]
